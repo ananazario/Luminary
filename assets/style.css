@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0B2240;
+    font-family: cursive;
+}
+
+.cabecalho {
+    display: flex;
+    vertical-align: top;
+    justify-content: space-around;
+    height: 60px;
+    background-color: #f8fbff;
+}
+
+header p {
+    color: rgb(34, 21, 44);
+    font-size: 45px;
+    margin: 0px 0 0 60px;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    letter-spacing: 10px;
+    margin: 15px 20px 10px 19em;
+    font-size: 26px;
+}
+
+.link-menu {
+    color: #1e2735;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.courses {
+    margin-right: 45px;
+}
+
+.secao {
+    background: url('universe.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 10%;
+    height: 680px;
+}
+
+.titulo {
+    height: 80px;
+    color: aliceblue;
+    padding: 8em 0 0 2em;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.titulo_secao {
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+.link {
+    border: 2px solid #4a6eb6;
+    background-color: #4a6eb6;
+    padding: 5px;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+
+.link:hover {
+    color:rgb(17, 9, 24);
+    background-color: rgb(132, 116, 148);
+    border-color: rgb(132, 116, 148);
+}
+
+.botao {
+    margin-top: 70px;
+    list-style: none;
+}
+
+.cursos_section {
+    text-align: center;
+}
+
+.titulo_cursos {
+    color: aliceblue;
+    font-size: 28px;
+    text-decoration: overline;
+    margin-top: 43px;
+}
+
+.cursos p {
+    color: aliceblue;
+}
+
+.cursos {
+    display: flex;
+    flex: space-between;
+    font-size: 24px;
+} 
+
+.curso {
+    margin: 50px auto 70px auto;
+    padding: 1px;
+    width: 24%;
+    height: 15em;
+    align-items: center;
+    border: 4px solid white;
+    border-bottom-color: #48D1CC;
+    border-right-color: #48D1CC;
+    background-color: #141A26;
+    cursor: pointer;
+}
+
+.curso:hover {
+    width: 24.4%;
+    height: 15.4em;
+    border: 6px solid white;
+    text-align: center;
+}
+
+.link_cursos {
+    text-decoration: none;
+}
+
+.curso_estrelas {
+    border-bottom-color: #FFFF00;
+    border-right-color: #FFFF00;
+}
+
+.curso_planetas {
+    border-bottom-color: rgb(41, 131, 138);
+    border-right-color: rgb(41, 131, 138);
+}
+
+.figura_curso {
+    margin-top: 40px;
+    padding: 2px;
+}
+
+footer{
+    height: 23em;
+    background-image: url('footer.jpg');
+    background-size: cover;
+}
+
+.rodape {
+    display: flex;
+    text-align: center;
+}
+
+.div_rodape {
+    width: 30%;
+    font-size: 24px;
+    margin: 23px auto;
+}
+
+.link_rodape {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 16px;
+}
+
+.titulo_rodape {
+    color: #ebedf0;
+    padding: 3px;
+    text-decoration: underline;
+    text-decoration-color: rgb(155, 102, 102);
+}
+
+@media screen and (max-width:768px) {
+    body {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .cursos {
+        display: block;
+    }
+
+    .curso {
+        margin: 50px auto 70px auto;
+        padding: 3px;
+        width: 50%;
+        height: 11em;
+        align-items: center;
+    }
+
+    .figura_curso {
+        width: 80px;
+    }
+
+    .cabecalho {
+        display: block;
+        height: 4em;
+    }
+
+    .titulo_header {
+        padding-top: 2px;
+        margin-left: 5px;
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .cabecalho ul {
+        margin-top: 9px;
+        margin-left: 15px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .titulo_cursos {
+        font-size: 24px;
+    }
+
+    .titulo {
+        padding: 7em 0 0 1em;
+    }
+
+    footer {
+        height: 32em;
+        background-size: cover;
+    }
+
+    .rodape {
+        display: block;
+    }
+
+    .div_rodape {
+        width: 100%;
+        padding: 1px;
+    }
+}
+
+
+

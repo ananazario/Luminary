@@ -1,0 +1,155 @@
+body {
+    font-family: cursive;
+    font-size: 22px;
+    background-image: linear-gradient(to bottom, #fff, #3969a8);
+    background-size: cover;
+}
+
+.lista_profissao {
+    display: flex;
+    margin-top: 70px;
+}
+
+.figura {
+    vertical-align: middle;
+    padding-right: 2px;
+}
+
+.material-symbols-outlined {
+    width: 90px;
+    height: 90px;
+}
+
+.lista_profissao li {
+    width: 30%;
+}
+
+.titulo_profissao {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.div_profissao {
+    display: flex;
+}
+
+.div_areas-da-profissao {
+    width: 40%;
+    margin: 20px auto;
+}
+
+.areas-da-profissao {
+    text-decoration:  underline;
+    margin-left: 160px;
+}
+
+.titulo_cursos {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.div_cursos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    border: 2px solid white;
+    background-color: #fff;
+}
+
+.div_cursos:hover {
+    background-color: rgb(166, 166, 148);
+    border-color: rgb(142, 142, 127);
+    cursor: pointer;
+}
+
+.imagem_cursos {
+    width: 45%;
+    padding-right: 30px;
+    height: 370px;
+    margin: 30px 30px;
+}
+
+.informacoes-curso_div {
+    margin: 40px 80px;
+}
+
+.informacao_curso {
+    width: 50%;
+}
+
+.informacao-cursos-div {
+    display: flex;
+    width: 40%;
+    padding-left: 10px;
+}
+
+.cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:768px){
+    .titulo-principal_profissao {
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    
+    .lista_profissao {
+        margin-top: 45px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lista_profissao li {
+        list-style: none;  
+        width: 35%;
+        line-height: 60px;
+        margin-left: 35px;
+    }
+
+    .item-lista_profissao {
+        margin-left: 30px;
+    }
+
+    .div_profissao {
+        display: block;
+    }
+
+    .subtitulo_profissao {
+        margin-top: 50px;
+        margin-left: 140px;
+    }
+
+    .div_areas-da-profissao {
+        width: 90%;
+    }
+
+    .titulo_cursos {
+        width: 90%;
+        margin-top: 75px;
+        margin-bottom: 50px;
+    }
+
+    .imagem_cursos  {
+        width: 92%;
+        height: 310px;
+        margin: 20px 15px;
+    }
+
+    .nome_cursos {
+        margin-left: 4px;
+    }
+
+    .informacoes-curso_div {
+        margin: 5px 15px;
+    }
+
+    .informacao_curso {
+        font-style: bold;
+    }
+
+}
+
+
+
+
